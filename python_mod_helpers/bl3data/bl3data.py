@@ -634,30 +634,30 @@ class BL3Data(object):
             self.balance_to_extra_anoints = {}
 
             for expansion_name in [
-                    '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Raid1',
-                    '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Shields_Raid1',
-                    '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Raid1',
-                    # Cartels expansions have become part of the base game, add those in.
-                    '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Grenades_Event2',
-                    '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Shields_Event2',
-                    '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Weapons_Event2',
-                    # Designer's Cut expansion (yep, just weapons)
-                    '/Game/PatchDLC/Ixora/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Ixora',
-                    # These objects do exist, but they don't actually add any parts, so whatever.
-                    # The BloodyHarvest ones *do* add them, but only during the event, so we're ignoring
-                    # those too.
-                    #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Grenades_BloodyHarvest',
-                    #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Shields_BloodyHarvest',
-                    #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Weapons_BloodyHarvest',
-                    #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Dandelion',
-                    #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Shields_Dandelion',
-                    #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Dandelion',
-                    #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Hibiscus',
-                    #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Shields_Hibiscus',
-                    #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Hibiscus',
-                    #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Geranium',
-                    #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Shields_Geranium',
-                    #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Geranium',
+                    # '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Raid1',
+                    # '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Shields_Raid1',
+                    # '/Game/PatchDLC/Raid1/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Raid1',
+                    # # Cartels expansions have become part of the base game, add those in.
+                    # '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Grenades_Event2',
+                    # '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Shields_Event2',
+                    # '/Game/PatchDLC/Event2/Gear/_Design/_GearExtension/GParts/GPartExpansion_Weapons_Event2',
+                    # # Designer's Cut expansion (yep, just weapons)
+                    # '/Game/PatchDLC/Ixora/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Ixora',
+                    # # These objects do exist, but they don't actually add any parts, so whatever.
+                    # # The BloodyHarvest ones *do* add them, but only during the event, so we're ignoring
+                    # # those too.
+                    # #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Grenades_BloodyHarvest',
+                    # #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Shields_BloodyHarvest',
+                    # #'/Game/PatchDLC/BloodyHarvest/Gear/_Design/_GearExtension/GParts/GPartExpansion_Weapons_BloodyHarvest',
+                    # #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Dandelion',
+                    # #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Shields_Dandelion',
+                    # #'/Game/PatchDLC/Dandelion/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Dandelion',
+                    # #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Hibiscus',
+                    # #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Shields_Hibiscus',
+                    # #'/Game/PatchDLC/Hibiscus/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Hibiscus',
+                    # #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Weapons_Geranium',
+                    # #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Shields_Geranium',
+                    # #'/Game/PatchDLC/Geranium/Gear/_GearExtension/GParts/GPartExpansion_Grenades_Geranium',
                     ]:
 
                 # Construct a list of anointments which this GPartExpansion provides
