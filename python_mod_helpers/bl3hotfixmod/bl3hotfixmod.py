@@ -259,7 +259,7 @@ class Mod(object):
     """
 
     # Hotfix target types
-    (PATCH, LEVEL, EARLYLEVEL, CHAR, PACKAGE, POST) = range(6)
+    (PATCH, LEVEL, EARLYLEVEL, CHAR, PACKAGE, POST, ADDED) = range(7)
 
     # We have no examples of SparkPostLoadedEntry or SparkStreamedPackageEntry, and
     # I haven't been successful in trying to get them to work (I suspect that
@@ -274,6 +274,7 @@ class Mod(object):
             # No idea what the right syntax is for these two...
             PACKAGE: 'SparkStreamedPackageEntry',
             POST: 'SparkPostLoadedEntry',
+            ADDED: 'SparkLevelAddedToWorldEntry',
         }
 
     # "Known" licenses
