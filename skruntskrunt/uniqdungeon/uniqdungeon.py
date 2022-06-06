@@ -108,10 +108,10 @@ spawnoptions = [
 
 # lets start dumb, go to 10
 for spawnoption in endless:
-    choice = random.choice(uniques)
     # choice = '/Game/Enemies/_Spawning/Naga/_Unique/SpawnOptions_NagaUnique_AvatarOfFire.SpawnOptions_NagaUnique_AvatarOfFire'
-    real_choice = f'{choice}.{get_bpchar(choice)}'
     for idx in range(0,10):
+        choice = random.choice(uniques)
+        real_choice = f'{choice}.{get_bpchar(choice)}'
         mod.reg_hotfix(DFL_LEVEL,
                        mapcode,
                        spawnoption,
