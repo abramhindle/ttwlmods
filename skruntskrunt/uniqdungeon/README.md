@@ -27,6 +27,11 @@ Some big guys don't spawn right.
 
 Please report bugs to this repository on github: https://github.com/abramhindle/ttwlmods
 
+References
+==========
+
+Without CZ47's help I wouldn't know about SparkLevelAddedToWorldEntry
+
 Licenses
 ========
 
