@@ -31,7 +31,7 @@ SPAWNOUT='spawnoptions.output.json'
 BPCHAR=1
 SEED=None # 42
 our_seed = SEED
-version = '0.1.2'
+version = '0.0.1'
 
 EASY="easy"
 MEDIUM="medium"
